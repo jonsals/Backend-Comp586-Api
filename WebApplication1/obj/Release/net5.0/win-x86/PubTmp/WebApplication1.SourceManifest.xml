@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\Programming\Comp586\WeatherCsun\WebApplication1\WebApplication1\obj\Release\net5.0\win-x86\PubTmp\Out\" />
+  <dbfullsql path="D:\Programming\Comp586\WeatherCsun\WebApplication1\WebApplication1\obj\Release\net5.0\win-x86\PubTmp\EFSQLScripts\WebApplication1.Identity.ApplicationDbContext.sql" />
+  <dbfullsql path="D:\Programming\Comp586\WeatherCsun\WebApplication1\WebApplication1\obj\Release\net5.0\win-x86\PubTmp\EFSQLScripts\WebApplication1.Models.AlbumContext.sql" />
+</sitemanifest>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="MusicProject" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Programming\\Comp586\\WeatherCsun\\WebApplication1\\WebApplication1\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="WebApplication1.Identity.ApplicationDbContext" description="" value="Data Source=tcp:finalproject586.database.windows.net,1433;Initial Catalog=WebApplication1_db;User Id=jonsal@finalproject586;Password=1234Qwer" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\Programming\\Comp586\\WeatherCsun\\WebApplication1\\WebApplication1\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\WebApplication1\.Identity\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>

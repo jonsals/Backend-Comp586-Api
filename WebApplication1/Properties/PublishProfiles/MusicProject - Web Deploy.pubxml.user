@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJLzTqwfVEEa45JGF/BmsIgAAAAACAAAAAAAQZgAAAAEAACAAAADpnyn4LNlTxDeD8AK2f51iQcJMRhHwX08lwmU1t6/c7wAAAAAOgAAAAAIAACAAAABzg//O6mSF6tFOh7AW3KS9/cq7KqNvAPODAr5hN470AIAAAADMvtHsJY/ycuzmyKTsKXTNNKgManoB+ehIa5nuJhBnxvqPsEy1QF+wdWB8peBkMEJ/gKlbNbkOE/fGhOkQ87bPNv8hZ1aZMZqg11vhVpMJiEmD1njLQ50Ua9hJHmcIoFlTsTbM+wzVdLbsuvAFGD9c/Hm46dDLKR3ErmxL+tFi0UAAAAC+2EQUrNQBpUc58RwevVQzpQjt585/cZalnmMfBrM/HiVZ+oV6cMwb8g8J4czUjZrbY+gxNcMyyX8xnP/N6J4J</EncryptedPassword>
+    <History>True|2021-12-21T04:31:38.0753713Z;True|2021-12-20T20:21:55.9744800-08:00;True|2021-12-20T20:04:55.0902087-08:00;True|2021-12-20T20:02:26.5593351-08:00;True|2021-12-20T19:59:29.2323777-08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebApplication1.Identity.ApplicationDbContext">
+      <Value>Data Source=tcp:finalproject586.database.windows.net,1433%3bInitial Catalog=WebApplication1_db%3bUser Id=jonsal%40finalproject586%3bPassword=1234Qwer</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

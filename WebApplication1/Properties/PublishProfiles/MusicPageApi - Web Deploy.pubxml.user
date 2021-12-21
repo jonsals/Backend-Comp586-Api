@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJLzTqwfVEEa45JGF/BmsIgAAAAACAAAAAAAQZgAAAAEAACAAAACfnM2abgYxwX8w+ltbQKRGg3vk1aKSMQzwMfYmsVt0pwAAAAAOgAAAAAIAACAAAAANtMyKEhx/RzoK6v50nSpmR3SoYb0nwXYZEar/wUMhv4AAAAAZ1+Krb1wucKsZtj/RBbtLgdaojX9AFY0DBYM/8r7EP8n6YFNRtPLAqbQra5Gnmh156n2ZDN+47Rv2Bqn4vkKR+FdLWFn03lPj1u8B/yBHeIFiBykhPf8g4KibxvLKC7vlVuq9k9sEJ4yMX/IIeSlAglVYT+C6FcMIYveZt+jlKUAAAAD80Z9Y2HnDDM8HowY3oFI8G+OF7D6XtGOSux+qvZzoUCh/1cagG5F55yf8wCvCvKwGBLQC5xzyur44T8ETjD5d</EncryptedPassword>
+    <History>False|2021-12-21T04:34:16.0203953Z;False|2021-12-20T20:33:06.7696312-08:00;False|2021-12-20T20:31:09.4490050-08:00;False|2021-12-20T20:29:51.3163963-08:00;False|2021-12-20T20:29:10.1506725-08:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=aspnet-albumProject%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="WebApplication1.Identity.ApplicationDbContext">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=aspnet-albumProject%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+    <EFMigrations Include="WebApplication1.Models.AlbumContext">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=aspnet-albumProject%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
